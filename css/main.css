@@ -1,11 +1,6 @@
 body {
 	font-family: "Trirong", serif;
 	background-position: 0px 0px;
-	/*background-image: linear-gradient(to right, 
-    #FFFFFF 0px,
-    #FFFFFF 400px,
-    #FFFFFF 400px,
-    #00A1B0 100%);*/
 }
 
 .logo {
@@ -57,4 +52,8 @@ th {
 
 tr th {
 	font-weight: bold;
+}
+
+tr:nth-child(even) {
+	background-color: #DAEDEF;
 }
