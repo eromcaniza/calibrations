@@ -1,0 +1,60 @@
+body {
+	font-family: "Trirong", serif;
+	background-position: 0px 0px;
+	/*background-image: linear-gradient(to right, 
+    #FFFFFF 0px,
+    #FFFFFF 400px,
+    #FFFFFF 400px,
+    #00A1B0 100%);*/
+}
+
+.logo {
+	width: 100px;
+}
+
+.identification {
+	margin: 20px;
+}
+
+.identification div{
+	display: flex;
+	flex-direction: row;
+}
+
+.title {
+	font-weight: bold;
+	color: #00A1B0;
+}
+
+.data {
+	margin-left: 10px;
+}
+
+.identification p {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+table {
+	margin-left: 20px;
+  	border-collapse: collapse;
+  	border-width: 0;
+
+  	display: block;
+  	overflow: auto;
+}
+
+td, th {
+  	border: 1px solid;
+  	padding: .5em 1em;
+}
+
+th {
+	background-color: #F9A25D;
+	border: 1px solid black;
+	color: white;
+}
+
+tr th {
+	font-weight: bold;
+}
